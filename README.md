@@ -1,1 +1,1 @@
-# ejercicio-componentes-dos
+# ejercicio-componentes-dos | k r v
