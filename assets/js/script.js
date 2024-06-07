@@ -58,7 +58,7 @@ const contenido = document.getElementById('contenido')
 boton.addEventListener('click', function() {
     const botones = document.querySelectorAll('button[data-bs-titulo], button[data-bs-contenido], button[data-bs-content]')
     
-    for (i=0; 0<botones.length; i++) {
+    for (i=0; i<botones.length; i++) {
         if (botones[i].getAttribute('id') == 'popoverBtn') {
             botones[i].setAttribute('data-bs-content', contenido.value)
         } else  {
